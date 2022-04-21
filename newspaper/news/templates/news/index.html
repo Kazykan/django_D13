@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if news %}
+        {% for new in news %}
+
+        {% endfor %}
+    {% else %}
+        <h1>Новостей нет</h1>
+    {% endif %}
+</body>
+</html>
